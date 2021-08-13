@@ -1,0 +1,13 @@
+type User {
+  id: ID!
+  firstName: String!
+  lastName: String!
+  email: String!
+  isAdmin: Boolean!
+}
+
+input UserSearchCriteria {
+  limit: Int
+  offset: Int
+  id: ID
+}
